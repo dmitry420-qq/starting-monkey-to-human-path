@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<notes>
+    <note>
+        <title>Заголово1к</title>
+        <text>Новый текст</text>
+        <owner mail="rrw@mail.ru" name="ivan"/>
+        <privileges>
+            <user mail="erer@yandex.ru" rights="RW"/>
+            <user mail="erer@mail.ru" rights="RW"/>
+        </privileges>
+        <cdate>12-14-1999</cdate>
+    </note>
+    <note>
+        <title>Заголовок2</title>
+        <text>Какой-то там текст2</text>
+        <owner mail="pewprp@mail.ru" name="loh"/>
+        <privileges>
+            <user mail="wlr@yandex.ru" rights="R"/>
+        </privileges>
+        <cdate>01-12-1999</cdate>
+    </note>
+</notes>
