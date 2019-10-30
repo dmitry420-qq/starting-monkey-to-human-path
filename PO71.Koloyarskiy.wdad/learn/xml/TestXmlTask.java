@@ -16,9 +16,9 @@ public class TestXmlTask {
         System.out.println(xmlTask.getNoteText(owner, "Заголово1к"));
         xmlTask.marshall(path);
         User user = new User();
-        user.setMail("erer@mail.ru");
+        user.setMail("erer@yandex.ru");
         user.setRights("RW");
-        xmlTask.setPrivileges("Заголово1к", user, 2);
+        xmlTask.setPrivileges("Заголово1к", user, 1);
         xmlTask.marshall(path);
     }
 }

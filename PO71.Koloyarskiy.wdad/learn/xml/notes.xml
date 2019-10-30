@@ -5,7 +5,7 @@
         <text>Новый текст</text>
         <owner mail="rrw@mail.ru" name="ivan"/>
         <privileges>
-            <user mail="erer@yandex.ru" rights="RW"/>
+            <user mail="erer@yandex.ru" rights="R"/>
             <user mail="erer@mail.ru" rights="RW"/>
         </privileges>
         <cdate>12-14-1999</cdate>
