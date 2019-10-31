@@ -24,9 +24,9 @@ directory or *jar file, or URL to *.jar file, containing *.class files --><!ATTL
                 <registryaddress>localhost</registryaddress>
                 <registryport>1099</registryport>
             </registry>
-        </server>
+        <bindedobject class="PO71.Koloyarskiy.wdad.learn.rmi.XmlDataMangerImpl" name="XmlDataManager"/><bindedobject class="PO71.Koloyarskiy.wdad.learn.rmi.XmlDataMangerImpl" name="XmlDataManager"/></server>
         <client>
-            <policypath>client.policy</policypath>
+            <policypath>C:\Users\User\IdeaProjects\starting-monkey-to-human-path\PO71.Koloyarskiy.wdad\learn\rmi\security.policy</policypath>
             <usecodebaseonly>no</usecodebaseonly>
         </client>
         <classprovider>http://www.yourhost.free.ru/cp/cp.jar</classprovider>

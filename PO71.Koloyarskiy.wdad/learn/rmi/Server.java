@@ -56,8 +56,8 @@ public class Server {
             try{
                 System.out.println("exporting object ...");
                 XmlDataManagerImpl xmlDataManagerImpl = new XmlDataManagerImpl();
-                UnicastRemoteObject.exportObject((Remote) xmlDataManagerImpl, XML_DATA_MANAGER_PORT);//убрать каст Remote
-                registry.rebind(XML_DATA_MANAGER, (Remote) xmlDataManagerImpl);//убрать каст Remote
+                UnicastRemoteObject.exportObject(xmlDataManagerImpl, XML_DATA_MANAGER_PORT);//убрать каст Remote
+                registry.rebind(XML_DATA_MANAGER, xmlDataManagerImpl);//убрать каст Remote
                 preferencesManager.addBindedObject(XML_DATA_MANAGER, "PO71.Koloyarskiy.wdad.learn.rmi.XmlDataMangerImpl");
                 System.out.println("Waiting ... ");
                 System.out.println("Input \"exit\" to close server.");
